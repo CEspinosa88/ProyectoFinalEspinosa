@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif; }
+
+.tituloIndex {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: center; }
+
+.carousel {
+  margin-top: 5vh; }
+  .carousel .carousel-inner {
+    display: flex;
+    justify-content: space-around; }
+  .carousel .carousel-control-prev,
+  .carousel .carousel-control-next {
+    margin-left: 20%;
+    margin-right: 20%; }
+
+.ingTrabajando {
+  margin: 10vh;
+  display: grid; }
+  .ingTrabajando img {
+    height: 20vw; }
+  .ingTrabajando p {
+    text-align: justify; }
+  .ingTrabajando .container .row {
+    align-items: center; }
+    .ingTrabajando .container .row .col {
+      padding: 2vw; }
+
+.h2Clientes,
+.tituloCertificaciones {
+  display: flex;
+  justify-content: center; }
+
+.listaClientes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh; }
+  .listaClientes img {
+    height: 15vh;
+    margin: 5vh; }
+
+.certificaciones {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh; }
+  .certificaciones img {
+    height: 15vh; }
+
+@media (max-width: 575.98px) {
+  .navbar .container-fluid .navbar-brand img {
+    height: 7vh; }
+  .tituloIndex {
+    margin-top: 12vh; }
+  .ingTrabajando {
+    margin: 7vh; }
+  .listaClientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5vh; }
+    .listaClientes img {
+      height: 5vh;
+      margin: 3vw; }
+  .certificaciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5vh; }
+    .certificaciones img {
+      height: 5vh;
+      margin: 3vw; }
+  .ingTrabajando .container .row .col {
+    display: flex;
+    justify-content: center; }
+    .ingTrabajando .container .row .col img {
+      height: 12vh; }
+  .carousel-inner,
+  .carousel-item,
+  .carousel img {
+    width: 90% !important;
+    margin: 0 auto; } }
+
+@media (min-width: 576px) {
+  .ingTrabajando {
+    margin: 7vh; } }
+
+.navbar {
+  font-size: 1.5em; }
+
+.logoCRER {
+  height: 10vw;
+  border-radius: 1em; }
+
+.footer .container .text-muted a img {
+  height: 5vh;
+  margin: 2vh; }
+
+img {
+  border-radius: 2vw; }

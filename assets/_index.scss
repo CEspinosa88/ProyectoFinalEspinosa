@@ -1,0 +1,127 @@
+.tituloIndex {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  margin-top: 5vh;
+  .carousel-inner {
+    display: flex;
+    justify-content: space-around;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+.ingTrabajando {
+  margin: 10vh;
+  display: grid;
+  img {
+    height: 20vw;
+  }
+  p {
+    text-align: justify;
+  }
+  .container {
+    .row {
+      align-items: center;
+      .col {
+        padding: 2vw;
+      }
+    }
+  }
+}
+
+.h2Clientes,
+.tituloCertificaciones {
+  display: flex;
+  justify-content: center;
+}
+
+.listaClientes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+  img {
+    height: 15vh;
+    margin: 5vh;
+  }
+}
+
+.certificaciones {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+  img {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar {
+    .container-fluid {
+      .navbar-brand {
+        img {
+          height: 7vh;
+        }
+      }
+    }
+  }
+  .tituloIndex {
+    margin-top: 12vh;
+  }
+  .ingTrabajando {
+    margin: 7vh;
+  }
+  .listaClientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    img {
+      height: 5vh;
+      margin: 3vw;
+    }
+  }
+  .certificaciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    img {
+      height: 5vh;
+      margin: 3vw;
+    }
+  }
+  .ingTrabajando {
+    .container {
+      .row {
+        .col {
+          display: flex;
+          justify-content: center;
+          img {
+            height: 12vh;
+          }
+        }
+      }
+    }
+  }
+  .carousel-inner,
+  .carousel-item,
+  .carousel img {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .ingTrabajando {
+    margin: 7vh;
+  }
+}
+@media (min-width: 768px) {
+}
