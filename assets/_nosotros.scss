@@ -1,0 +1,63 @@
+.h1Nosotros {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.misVis {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  .row {
+    display: flex;
+    .col-md {
+      h2 {
+        text-align: center;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}
+
+.background {
+  h2 {
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .container {
+    .row {
+      .col {
+        display: flex;
+        align-items: center;
+        .grid-item {
+          img {
+          }
+          p {
+            text-align: justify;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sedes {
+  h2 {
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .container {
+    .row {
+        .col {
+            .grid-item {
+                p {
+                    text-align: center;
+                    font-size: 1.5em;
+                    margin: 5vh;
+                }
+            }
+        }
+    }
+  }
+}

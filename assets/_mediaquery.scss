@@ -1,0 +1,83 @@
+@media (max-width: 575.98px) {
+  .navbar {
+    .container-fluid {
+      .navbar-brand {
+        img {
+          height: 7vh;
+        }
+      }
+    }
+  }
+  .tituloIndex {
+    margin-top: 12vh;
+  }
+  .ingTrabajando {
+    margin: 7vh;
+  }
+  .listaClientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    img {
+      height: 5vh;
+      margin: 3vw;
+    }
+  }
+  .certificaciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    img {
+      height: 5vh;
+      margin: 3vw;
+    }
+  }
+  .ingTrabajando {
+    .container {
+      .row {
+        .col {
+          display: flex;
+          justify-content: center;
+          img {
+            height: 12vh;
+          }
+        }
+      }
+    }
+  }
+  .carousel-inner,
+  .carousel-item,
+  .carousel img {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .h1Nosotros {
+    margin-top: 15vh;
+  }
+  .misVis {
+    margin-top: 5vh;
+    margin-bottom: 2.5vh;
+  }
+  .background {
+    h2 {
+      margin-bottom: 2.5vh;
+    }
+  }
+  .sedes {
+    h2 {
+      margin-top: 2.5vh;
+      margin-bottom: 3vh;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .ingTrabajando {
+    margin: 7vh;
+  }
+}
+
+@media (min-width: 768px) {
+}

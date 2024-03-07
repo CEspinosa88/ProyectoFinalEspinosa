@@ -1,28 +1,28 @@
 // Aquí iría todo lo del nav y footer
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap");
 
 .navbar {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .logoCRER {
-    height: 10vw;
-    border-radius: 1em;
+  height: 10vw;
+  border-radius: 1em;
 }
 
 .footer {
-    .container {
-        .text-muted {
-            a {
-                img {
-                    height: 5vh;
-                    margin: 2vh;
-                }
-            }
+  .container {
+    .text-muted {
+      a {
+        img {
+          height: 5vh;
+          margin: 2vh;
         }
+      }
     }
+  }
 }
 
 img {
-    border-radius: 2vw;
+  border-radius: 2vw;
 }
