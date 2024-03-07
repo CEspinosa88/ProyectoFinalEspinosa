@@ -70,6 +70,17 @@
       margin-top: 2.5vh;
       margin-bottom: 3vh;
     }
+    .container {
+      .row {
+        .col {
+          .grid-item {
+            p {
+              font-size: 1em;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
