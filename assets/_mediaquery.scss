@@ -12,7 +12,21 @@
     margin-top: 12vh;
   }
   .ingTrabajando {
-    margin: 7vh;
+    margin: 3vh;
+    .container {
+      padding: 0;
+      margin-top: 2vh;
+      margin-bottom: 0;
+      .row {
+        margin-top: 2vh;
+        margin-bottom: 0;
+        .col {
+          width: 300px;
+          p {
+          }
+        }
+      }
+    }
   }
   .listaClientes {
     display: flex;
@@ -67,6 +81,14 @@
     h2 {
       margin-bottom: 2.5vh;
     }
+    .container {
+      margin-bottom: 0;
+      margin-top: 0;
+      .row {
+        margin-right: 1vw;
+        margin-left: 1vw;
+      }
+    }
   }
   .sedes {
     h2 {
@@ -74,11 +96,16 @@
       margin-bottom: 3vh;
     }
     .container {
+      margin-top: 0;
+      margin-bottom: 3vh;
       .row {
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
         .col {
           .grid-item {
             p {
               font-size: 1em;
+              margin: 0;
             }
           }
         }
@@ -110,7 +137,8 @@
     margin-top: 5vh;
   }
   .contacth1 {
-  text-align: center;}
+    text-align: center;
+  }
 }
 
 @media (min-width: 576px) {
