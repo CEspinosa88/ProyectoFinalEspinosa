@@ -1,0 +1,24 @@
+.h1servicios {
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.container {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    .row {
+        margin: 5vh;
+        .col {
+            display: flex;
+            align-items: center;
+            .grid-item {
+                h2 {
+                    text-align: center;
+                }
+                p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

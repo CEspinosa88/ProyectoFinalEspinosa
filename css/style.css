@@ -59,12 +59,32 @@
   height: 10vw;
   border-radius: 1em; }
 
-.footer .container .text-muted a img {
-  height: 5vh;
-  margin: 2vh; }
+.footer .container {
+  margin-top: 1vh;
+  margin-bottom: 1vh; }
+  .footer .container .text-muted a img {
+    height: 5vh;
+    margin: 2vh; }
 
 img {
   border-radius: 2vw; }
+
+.contacth1 {
+  margin-top: 30vh;
+  margin-right: 10vh;
+  margin-left: 10vh;
+  text-align: center; }
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh; }
+  form .formulario {
+    width: 60%; }
+  form .botonForm {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center; }
 
 .h1Nosotros {
   margin-top: 30vh;
@@ -101,6 +121,37 @@ img {
   font-size: 1.5em;
   margin: 5vh; }
 
+.h1proyectos {
+  margin-top: 30vh;
+  text-align: center; }
+
+.listaProyectos {
+  margin-bottom: 15vh; }
+  .listaProyectos .row {
+    width: 100%; }
+    .listaProyectos .row .tarjeta .card .card-body p {
+      text-align: center; }
+
+.card {
+  border: none; }
+
+.h1servicios {
+  margin-top: 30vh;
+  text-align: center; }
+
+.container {
+  margin-top: 10vh;
+  margin-bottom: 10vh; }
+  .container .row {
+    margin: 5vh; }
+    .container .row .col {
+      display: flex;
+      align-items: center; }
+      .container .row .col .grid-item h2 {
+        text-align: center; }
+      .container .row .col .grid-item p {
+        text-align: justify; }
+
 @media (max-width: 575.98px) {
   .navbar .container-fluid .navbar-brand img {
     height: 7vh; }
@@ -134,7 +185,10 @@ img {
   .carousel img {
     width: 90% !important;
     margin: 0 auto; }
-  .h1Nosotros {
+  .h1Nosotros,
+  .h1servicios,
+  .h1proyectos,
+  .contacth1 {
     margin-top: 15vh; }
   .misVis {
     margin-top: 5vh;
@@ -145,7 +199,21 @@ img {
     margin-top: 2.5vh;
     margin-bottom: 3vh; }
   .sedes .container .row .col .grid-item p {
-    font-size: 1em; } }
+    font-size: 1em; }
+  .servicios .container {
+    margin: 0; }
+    .servicios .container .row {
+      margin: 2vh; }
+      .servicios .container .row .col .grid-item h2 {
+        font-size: 1em; }
+      .servicios .container .row .col .grid-item p {
+        font-size: 0.7em; }
+  .listaProyectos {
+    margin-bottom: 1vh; }
+  form {
+    margin-top: 5vh; }
+  .contacth1 {
+    text-align: center; } }
 
 @media (min-width: 576px) {
   .ingTrabajando {

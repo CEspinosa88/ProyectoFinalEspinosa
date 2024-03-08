@@ -1,0 +1,20 @@
+.contacth1 {
+  margin-top: 30vh;
+  margin-right: 10vh;
+  margin-left: 10vh;
+  text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+  .formulario {
+    width: 60%;
+  }
+  .botonForm {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+  }
+}
