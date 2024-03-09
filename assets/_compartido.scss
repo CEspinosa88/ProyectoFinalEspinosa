@@ -3,7 +3,19 @@
 
 .navbar {
   font-size: 1.5em;
-}
+  .container-fluid {
+    .collapse {
+      .navbar-nav {
+        li:hover {
+          background-color: rgb(199, 199, 199)
+          transition: background-color 1s;
+          border-radius: 4px;
+        }
+      }
+    }
+    }
+  }
+
 
 .logoCRER {
   height: 10vw;
