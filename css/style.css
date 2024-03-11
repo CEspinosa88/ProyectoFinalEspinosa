@@ -55,7 +55,7 @@
 .navbar {
   font-size: 1.5em; }
   .navbar .container-fluid .collapse .navbar-nav li:hover {
-    background-color: #c9c4c4;
+    background-color: #c7c7c7;
     transition: background-color 1s;
     border-radius: 4px; }
 
@@ -109,6 +109,9 @@ form {
   text-align: center;
   margin-bottom: 10vh; }
 
+.background .backgroundQuery {
+  display: none; }
+
 .background .container .row .col {
   display: flex;
   align-items: center; }
@@ -157,6 +160,9 @@ form {
         text-align: center; }
       .container .row .col .grid-item p {
         text-align: justify; }
+
+.serviciosQuery {
+  display: none; }
 
 @media (max-width: 575.98px) {
   .navbar .container-fluid .navbar-brand img {
@@ -211,11 +217,18 @@ form {
   .background h2 {
     margin-bottom: 2.5vh; }
   .background .container {
-    margin-bottom: 0;
-    margin-top: 0; }
-    .background .container .row {
-      margin-right: 1vw;
-      margin-left: 1vw; }
+    display: none; }
+  .background .backgroundQuery {
+    display: flex; }
+    .background .backgroundQuery .container {
+      display: flex;
+      flex-direction: column;
+      margin: 0; }
+      .background .backgroundQuery .container .row {
+        margin: 3vh;
+        text-align: justify; }
+        .background .backgroundQuery .container .row img {
+          border-radius: 5vw; }
   .sedes h2 {
     margin-top: 2.5vh;
     margin-bottom: 3vh; }
@@ -228,14 +241,22 @@ form {
       .sedes .container .row .col .grid-item p {
         font-size: 1em;
         margin: 0; }
-  .servicios .container {
-    margin: 0; }
-    .servicios .container .row {
-      margin: 2vh; }
-      .servicios .container .row .col .grid-item h2 {
-        font-size: 1em; }
-      .servicios .container .row .col .grid-item p {
-        font-size: 0.7em; }
+  .serviciosQuery {
+    display: flex;
+    flex-direction: column; }
+    .serviciosQuery .container {
+      display: flex;
+      flex-direction: column;
+      margin: 0; }
+      .serviciosQuery .container .row {
+        margin: 3vh;
+        text-align: justify; }
+        .serviciosQuery .container .row h2 {
+          text-align: center; }
+        .serviciosQuery .container .row img {
+          border-radius: 5vw; }
+  .servicios {
+    display: none; }
   .listaProyectos {
     margin-bottom: 1vh; }
   form {

@@ -82,11 +82,21 @@
       margin-bottom: 2.5vh;
     }
     .container {
-      margin-bottom: 0;
-      margin-top: 0;
-      .row {
-        margin-right: 1vw;
-        margin-left: 1vw;
+      display: none;
+    }
+    .backgroundQuery {
+      display: flex;
+      .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        .row {
+          margin: 3vh;
+          text-align: justify;
+          img {
+            border-radius: 5vw;
+          }
+        }
       }
     }
   }
@@ -112,23 +122,29 @@
       }
     }
   }
-  .servicios {
+
+  .serviciosQuery {
+    display: flex;
+    flex-direction: column;
     .container {
+      display: flex;
+      flex-direction: column;
       margin: 0;
       .row {
-        margin: 2vh;
-        .col {
-          .grid-item {
-            h2 {
-              font-size: 1em;
-            }
-            p {
-              font-size: 0.7em;
-            }
-          }
+        margin: 3vh;
+        text-align: justify;
+        h2 {
+          text-align: center;
+        }
+        img {
+          border-radius: 5vw;
         }
       }
     }
+  }
+
+  .servicios {
+    display: none;
   }
   .listaProyectos {
     margin-bottom: 1vh;
