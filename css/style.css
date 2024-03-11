@@ -214,6 +214,8 @@ form {
   .misVis {
     margin-top: 5vh;
     margin-bottom: 2.5vh; }
+    .misVis .row {
+      margin: 3vh; }
   .background h2 {
     margin-bottom: 2.5vh; }
   .background .container {
