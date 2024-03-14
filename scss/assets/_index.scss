@@ -46,6 +46,7 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 10vh;
+  flex-wrap: wrap;
   img {
     height: 15vh;
     margin: 5vh;
@@ -56,6 +57,7 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 10vh;
+  flex-wrap: wrap;
   img {
     height: 15vh;
   }

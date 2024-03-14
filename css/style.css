@@ -40,7 +40,8 @@
 .listaClientes {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 10vh; }
+  margin-bottom: 10vh;
+  flex-wrap: wrap; }
   .listaClientes img {
     height: 15vh;
     margin: 5vh; }
@@ -48,7 +49,8 @@
 .certificaciones {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 10vh; }
+  margin-bottom: 10vh;
+  flex-wrap: wrap; }
   .certificaciones img {
     height: 15vh; }
 
@@ -269,3 +271,14 @@ form {
 @media (min-width: 576px) {
   .ingTrabajando {
     margin: 7vh; } }
+
+@media (max-width: 768px) {
+  .ingTrabajando .container {
+    display: flex;
+    flex-direction: column; }
+    .ingTrabajando .container .row {
+      display: flex;
+      flex-direction: column; }
+      .ingTrabajando .container .row .col {
+        display: flex;
+        justify-content: center; } }
